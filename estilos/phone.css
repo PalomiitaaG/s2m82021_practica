@@ -1,0 +1,9 @@
+
+/* CSS Document */
+/*480px phone*/
+/*768px tablet*/
+@media screen and (max-width: 480px){
+	body{
+		background-color: tomato;
+	}
+}
