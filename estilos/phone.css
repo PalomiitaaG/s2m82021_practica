@@ -2,8 +2,56 @@
 /* CSS Document */
 /*480px phone*/
 /*768px tablet*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*para queno cuente el padding y no se desvorde*/
+}
+div, li {
+	padding: 10px;
+}
+body {
+	color: gray;
+}
+li {
+	list-style-type: none;
+	background-color: #AAAAAA;
+	height: 90px;
+	border: solid 3px #fff;
+}
+#header {
+	background-color: rgba(255,255,255,0.8);
+}
+#menu {
+	background-color: burlywood;
+}
+#menu li {
+	height: 50px;
+	background-color: yellowgreen;
+}
+#main {
+	background-color: rgba(255,255,255,0.5);
+}
+#aside {
+	background-color: rgba(255,255,255,0.3);
+}
+#footer {
+	background-color: rgba(255,255,255,0.1);
+}
 @media screen and (max-width: 480px){
 	body{
 		background-color: tomato;
+	}
+	#header {
+	
+	}
+	#main {
+		
+	}
+	#aside {
+		
+	}
+	#footer {
+		height: 100px;
 	}
 }
