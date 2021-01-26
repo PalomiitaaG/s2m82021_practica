@@ -15,12 +15,18 @@
 		background-color: pink;
 		
 	}
+	.check{
+		display: none;
+	}
+	#burguer{
+		display: none;
+	}
 	#menu {
 		overflow: hidden;
 		text-align: center;
 		width: 80%;
 		margin: 0 auto;
-		height: 400px;
+		height: 30px;
 		position: relative;
 	
 	}
