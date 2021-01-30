@@ -32,7 +32,7 @@
 #slider{
 	background-color: white;
 	height: 15vh;
-	width: 200vw;
+	width: auto;;
 }
 #slider li {
 	display: inline-block;
