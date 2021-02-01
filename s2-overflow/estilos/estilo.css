@@ -2,15 +2,25 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-size: 16px;
-	line-height: 32px;
 }
-#body {
+body {
 	height: 100vh;
+	font-size: 16px;
+	line-height: 20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+}
+.logo {
+	width: 30%;
+	padding: 10px 0;
+	margin: 5px;
 }
 .fa{
-	font-size: 48px;
-	color: hotpink;
+	font-size: 30px;
+	color: black;
+	margin: 5px;
+	padding: 10px 0;
+	float: right;
 }
 #header{
 	height: 10vh;
@@ -23,16 +33,29 @@
 #slider{
 	background-color: white;
 	height: 15vh;
-	width: 300vw;
+    width: 200vh;
+}
+#slider li {
+	display: inline-block;
 }
 .bola{
 	width: 10vh;
 	height: 10vh;
 	border-radius: 50%;
 	background-color: white;
-	border: solid 1px #666;
-	margin: 0 5px;
+	border: solid 2px #000000;
+	margin: 0 10px;
 	display: inline-block;
+	overflow: hidden;
+}
+.imagen{
+	width: 100%;
+	margin: auto 0;
+}
+.texto{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 5px;
 }
 #main{
 	width: 100%;
@@ -46,5 +69,34 @@
 }
 #footer{
 	height: 10vh;
-	background-color: lightgray;
+	background-color: white;
+	text-align: center;
+	margin: 5px auto;
+}
+.bolafoot{
+	width: 5vh;
+	height: 5vh;
+	border-radius: 50%;
+	background-color: white;
+	border: solid 2px #000000;
+	margin: 0 10px;
+	overflow: hidden;
+}
+.perfil{
+	background-image: url('../img/anna-kendrick.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 5px;
+	border-radius: 50%;
+	float: left;
+	width: 50px;
+	height: 50px;
+	list-style-type: none;
+	border: solid 1px #CCC;
+}
+.foot{
+	font-size: 30px;
+	float: left;
+	width: 19vw;
 }
