@@ -1,0 +1,31 @@
+@media screen and (max-width: 769px){
+	.logo{
+		margin-left: 5px;
+	}
+	#menu{
+		width: 100%;
+		background-color: white;
+	}
+	#menu > li{
+		float: none;
+		display: none;
+	}
+	#iconos {
+	top: 0;
+	margin-right: 15px;
+	margin-top: 5px;
+	position: absolute;
+	right: 0;
+}
+	/*++++++++++++++++++++++++ MAIN +++++++++++++++++*/
+	.slider{
+		background-position: center;
+		background-size: cover;
+	}
+	.texto_bann h2 {
+		font-size: 32px;
+	}
+	.texto_bann p {
+		font-size: 16px;
+	}
+}

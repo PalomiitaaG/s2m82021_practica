@@ -1,0 +1,57 @@
+@media screen and (max-width: 769px){
+	.logo{
+		margin-left: 5px;
+		float: left;
+	}
+	#menu{
+		width: 100%;
+		background-color: white;
+		display: none;
+	}
+	#menu > li{
+		display: none;
+	}
+	#iconos{
+		margin-right: 5px;
+	}
+	/*+++++++++++++++++++++++++++++ MAIN ++++++++++++++++*/
+	#main{
+		display: block;
+	}
+	.sec_inf {
+		margin-left: 15px;
+	}
+	.sec_inf a {
+		display: none;
+	}
+	.sec_inf h1{
+		font-size: 35px;
+	}
+	.sec_inf p {
+		font-size: 12px;
+	}
+	.icon{
+		display: none;
+	}
+	.lol {
+	width: 80%;
+	margin: 0 auto;
+}
+	#grand_foto{
+		width: 100%;
+	}
+	#mini {
+	margin-left: 0;
+	margin-right: 5px;
+	position: absolute;
+	top: 55px;
+	right: 0;
+}
+	#mini a {
+		display: block;
+
+	}
+	.bolas{
+		margin: 5px auto;
+	}
+}

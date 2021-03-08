@@ -1,0 +1,28 @@
+@media screen and (max-width: 769px){
+	.logo{
+		margin-left: 5px;
+		float: left;
+	}
+	#menu{
+		width: 100%;
+		background-color: white;
+		display: none;
+	}
+	#menu > li{
+		display: none;
+	}
+	#iconos{
+		margin-right: 5px;
+	}
+	/*++++++++++++++++++++++++++++++ MAIN ++++++++++++++++++++*/
+	.catalogo h2{
+		font-size: 25px;
+	}
+	.bloque1{
+		width: 100%;
+	}
+	.bloque2{
+		width: 100%;
+	}
+	.bloque3{}
+}
